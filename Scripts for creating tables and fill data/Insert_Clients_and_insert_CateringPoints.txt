@@ -1,0 +1,10 @@
+insert into Clients(client_name) values('Клиент 1');
+insert into Clients(client_name) values('Клиент 2');
+insert into Clients(client_name) values('Клиент 3');
+insert into Clients(client_name) values('Клиент 4');
+insert into Clients(client_name) values('Клиент 5');
+insert into CateringPoints(cateringpoint_name) values('Поставщик 1');
+insert into CateringPoints(cateringpoint_name) values('Поставщик 2');
+insert into CateringPoints(cateringpoint_name) values('Поставщик 3');
+insert into CateringPoints(cateringpoint_name) values('Поставщик 4');
+insert into CateringPoints(cateringpoint_name) values('Поставщик 5');

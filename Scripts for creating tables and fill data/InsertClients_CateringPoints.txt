@@ -1,0 +1,78 @@
+insert into clients_cateringpoints(clientid,cateringpointid,clients_cateringpoints_date,clients_cateringpoints_event) values(
+	1,
+	3,
+	'2023-01-22',
+	'Установка дней в пн,вт,пт'	
+);
+insert into clients_cateringpoints(clientid,cateringpointid,clients_cateringpoints_date,clients_cateringpoints_event) values(
+	1,
+	5,
+	'2023-01-24',
+	'Установка дней в вс,ср,пт'	
+);
+insert into clients_cateringpoints(clientid,cateringpointid,clients_cateringpoints_date,clients_cateringpoints_event) values(
+	2,
+	5,
+	'2023-01-21',
+	'Установка дней в чт,ср'	
+);
+insert into clients_cateringpoints(clientid,cateringpointid,clients_cateringpoints_date,clients_cateringpoints_event) values(
+	2,
+	1,
+	'2023-01-24',
+	'Установка дней в чт,ср'	
+);
+insert into clients_cateringpoints(clientid,cateringpointid,clients_cateringpoints_date,clients_cateringpoints_event) values(
+	2,
+	4,
+	'2023-02-03',
+	'Установка дней в вт,ср'	
+);
+insert into clients_cateringpoints(clientid,cateringpointid,clients_cateringpoints_date,clients_cateringpoints_event) values(
+	3,
+	1,
+	'2023-02-10',
+	'Установка дней в пн'	
+);
+insert into clients_cateringpoints(clientid,cateringpointid,clients_cateringpoints_date,clients_cateringpoints_event) values(
+	4,
+	1,
+	'2023-02-04',
+	'Установка дней в вт,ср'	
+);
+insert into clients_cateringpoints(clientid,cateringpointid,clients_cateringpoints_date,clients_cateringpoints_event) values(
+	4,
+	2,
+	'2023-02-07',
+	'Установка дней в вт,вс'	
+);
+insert into clients_cateringpoints(clientid,cateringpointid,clients_cateringpoints_date,clients_cateringpoints_event) values(
+	4,
+	4,
+	'2023-02-03',
+	'Установка дней в вт,ср'	
+);
+insert into clients_cateringpoints(clientid,cateringpointid,clients_cateringpoints_date,clients_cateringpoints_event) values(
+	4,
+	5,
+	'2023-01-28',
+	'Установка дней в ср'	
+);
+insert into clients_cateringpoints(clientid,cateringpointid,clients_cateringpoints_date,clients_cateringpoints_event) values(
+	5,
+	5,
+	'2023-01-28',
+	'Установка дней в пн'	
+);
+insert into clients_cateringpoints(clientid,cateringpointid,clients_cateringpoints_date,clients_cateringpoints_event) values(
+	5,
+	3,
+	'2023-02-05',
+	'Установка дней в вт'	
+);
+insert into clients_cateringpoints(clientid,cateringpointid,clients_cateringpoints_date,clients_cateringpoints_event) values(
+	5,
+	2,
+	'2023-02-01',
+	'Установка дней в чт'	
+);

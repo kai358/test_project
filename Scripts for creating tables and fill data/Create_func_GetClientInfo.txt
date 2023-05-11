@@ -1,0 +1,15 @@
+create or replace function get_info_about_client(client_id int)
+returns table (dt date, catering_point varchar(100), client_event varchar(300))
+as
+$$
+	begin
+	return query
+	select clients_cateringpoints.clients_cateringpoints_date, cateringpoints.cateringpoint_name, clients_cateringpoints.clients_cateringpoints_event 
+	from clients_cateringpoints
+	join cateringpoints
+	on clients_cateringpoints.cateringpointid = cateringpoints.cateringpoint_id
+	where clients_cateringpoints.clientid = client_id
+    order by clients_cateringpoints.clients_cateringpoints_date asc;
+	end;
+$$
+language plpgsql;
